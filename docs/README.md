@@ -1,5 +1,5 @@
 # maccharger
-[![GitHub license](https://img.shields.io/badge/licence-GNU-green?style=flat)](https://github.com/CastellaniDavide/cpp-maccharger/blob/master/LICENSE) ![Author](https://img.shields.io/badge/author-Castellani%20Davide-green?style=flat) ![Version](https://img.shields.io/badge/version-v1.0-blue?style=flat) ![Language Python](https://img.shields.io/badge/language-Python-yellowgreen?style=flat) ![sys.platform supported](https://img.shields.io/badge/OS%20platform%20supported-Linux,%20Windows%20&%20Mac%20OS-blue?style=flat) [![On GitHub](https://img.shields.io/badge/on%20GitHub-True-green?style=flat&logo=github)](https://github.com/CastellaniDavide/maccharger)
+[![GitHub license](https://img.shields.io/badge/licence-GNU-green?style=flat)](https://github.com/CastellaniDavide/cpp-maccharger/blob/master/LICENSE) ![Author](https://img.shields.io/badge/author-Castellani%20Davide-green?style=flat) ![Version](https://img.shields.io/badge/version-v01.01-blue?style=flat) ![Language Python](https://img.shields.io/badge/language-Python-yellowgreen?style=flat) ![sys.platform supported](https://img.shields.io/badge/OS%20platform%20supported-Linux,%20Windows%20&%20Mac%20OS-blue?style=flat) [![On GitHub](https://img.shields.io/badge/on%20GitHub-True-green?style=flat&logo=github)](https://github.com/CastellaniDavide/maccharger)
 
 ## Description
 Manage MAC address
@@ -9,9 +9,9 @@ Manage MAC address
  - [x] Change MAC Address with a specific one
  - [x] Change MAC Address with a random one
  - [x] Restore MAC Address
- - [ ] Use one-line mode or teminal
- - [ ] Make a tester
- - [ ] Make an installer
+ - [x] Use one-line mode or teminal
+ - [x] Make a tester
+ - [x] Make an installer
 
 ## Required
  - A browser to see videos
@@ -26,7 +26,7 @@ Manage MAC address
 
 ### 1. Install VBox
 #### Video
-[![1 Install VBox](https://res.cloudinary.com/marcomontalbano/image/upload/v1604154185/video_to_markdown/images/youtube--2GwoHz4_Jtg-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/2GwoHz4_Jtg "1 Install VBox")
+[![1. Install VBox](https://img.youtube.com/vi/2GwoHz4_Jtg/0.jpg)](https://www.youtube.com/watch?v=2GwoHz4_Jtg)
 
 #### Testual
  - Go to [https://www.virtualbox.org](https://www.virtualbox.org/)
@@ -36,6 +36,7 @@ Manage MAC address
 
 ### 2. Create VM
 #### Video
+[![2. Create VM](https://img.youtube.com/vi/8GveEZ9qPDg/0.jpg)](https://www.youtube.com/watch?v=8GveEZ9qPDg)
 
 #### Testual
  - Download a valid iso (eg. [Debian](https://www.debian.org/distrib/))
@@ -43,14 +44,16 @@ Manage MAC address
 
 ### 3. Download repo
 #### Video
+[![3. Download repo](https://img.youtube.com/vi/qE82wgx6tY0/0.jpg)](https://www.youtube.com/watch?v=qE82wgx6tY0)
 
 #### Testual
- -  go to [https://github.com/CastellaniDavide/maccharger](https://github.com/CastellaniDavide/maccharger)
+ - go to [https://github.com/CastellaniDavide/maccharger](https://github.com/CastellaniDavide/maccharger)
  - press download -> download zip
  - unzip folder
 
 ### 4. Run setup
 #### Video
+[![4. Run setup](https://img.youtube.com/vi/83wxAUZrp3E/0.jpg)](https://www.youtube.com/watch?v=83wxAUZrp3E)
 
 #### Testual
  - do to requirements folder
@@ -77,14 +80,21 @@ Manage MAC address
 ### Execution examples
  - sudo python3 maccharger.py
  - sudo python3 maccharger.py -v
- - sudo python3 maccharger.py -v -t 1 3 1 4 1
+ - sudo python3 maccharger.py -v -t 1 3 1 4
+ - sudo python3 maccharger.py -t 1 3 1 4
  - python3 test_maccharger.py
 
 # Changelog
- - [Version_1.0_2020-11-5](#Version_10_2020-11-5)
+ - [Version_01.01_2020-11-5](#Version_10_2020-11-5)
 
-## Version_1.0_2020-11-5
- - Initial version
+## Version_01.01_2020-11-5
+ - Read MAC Address
+ - Change MAC Address with a specific one
+ - Change MAC Address with a random one
+ - Restore MAC Address
+ - Use one-line mode or teminal
+ - Make a tester
+ - Make an installer
 
 ---
 Made by Castellani Davide 

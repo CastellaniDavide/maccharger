@@ -4,6 +4,7 @@ import sys
 from os import popen, path
 from datetime import datetime
 import randmac
+import time
 
 __author__ = "help@castellanidavide.it"
 __version__ = "1.0 2020-11-5"
@@ -55,6 +56,7 @@ class maccharger:
 					if self.option == 4:
 						self.log("Run option 4")
 						self.set_MAC(self.lastMAC)
+					time.sleep(1)
 				except:
 					pass
 		else:
@@ -116,7 +118,7 @@ class maccharger:
 		"""Get MAC Address
 		"""
 		my_MAC = popen(f"{'ip addr | grep ether' if maccharger.is_lnx() else 'getmac /NH'}").read().replace("    link/ether ", "").replace(" brd ff:ff:ff:ff:ff:ff", "").replace(":", "").replace("-", "")[:12:]
-		print(f"{'The PC MAC Address is: ' if self.verbose == True else ''}{my_MAC}")
+		self.log(f"{'The PC MAC Address is: ' if self.verbose == True else ''}{my_MAC}")
 
 	def set_random_MAC (self):
 		"""Set a new MAC address
@@ -138,5 +140,4 @@ class maccharger:
 		return __author__ == "help@castellanidavide.it"
 
 if __name__ == "__main__":
-	print(sys.argv[-1])
 	maccharger(sys.argv)
