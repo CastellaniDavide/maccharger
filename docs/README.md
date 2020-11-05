@@ -1,11 +1,60 @@
 # maccharger
 [![GitHub license](https://img.shields.io/badge/licence-GNU-green?style=flat)](https://github.com/CastellaniDavide/cpp-maccharger/blob/master/LICENSE) ![Author](https://img.shields.io/badge/author-Castellani%20Davide-green?style=flat) ![Version](https://img.shields.io/badge/version-v1.0-blue?style=flat) ![Language Python](https://img.shields.io/badge/language-Python-yellowgreen?style=flat) ![sys.platform supported](https://img.shields.io/badge/OS%20platform%20supported-Linux,%20Windows%20&%20Mac%20OS-blue?style=flat) [![On GitHub](https://img.shields.io/badge/on%20GitHub-True-green?style=flat&logo=github)](https://github.com/CastellaniDavide/maccharger)
 
-# Description
+## Description
 Manage MAC address
 
+## Goals
+ - [x] Read MAC Address
+ - [x] Change MAC Address with a specific one
+ - [x] Change MAC Address with a random one
+ - [x] Restore MAC Address
+ - [ ] Use one-line mode or teminal
+ - [ ] Make a tester
+ - [ ] Make an installer
+
 ## Required
- - python3
+ - A browser to see videos
+   
+## Istructions to install all necessary
+
+ - [1. Install VBox]
+ - [2. Create VM]
+ - [3. Download repo]
+ - [4. Run setup]
+ - [Enjoy]
+
+### 1. Install VBox
+#### Video
+[![1 Install VBox](https://res.cloudinary.com/marcomontalbano/image/upload/v1604154185/video_to_markdown/images/youtube--2GwoHz4_Jtg-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/2GwoHz4_Jtg "1 Install VBox")
+
+#### Testual
+ - Go to [https://www.virtualbox.org](https://www.virtualbox.org/)
+ - Press "Download" bottom
+ - Select your OS & distribution (in my case Linux -> Ubuntu 20.04)
+ - Install it with double press or using shell (in Ubuntu sudo apt install .\virtualbox...)
+
+### 2. Create VM
+#### Video
+
+#### Testual
+ - Download a valid iso (eg. [Debian](https://www.debian.org/distrib/))
+ - Install VM into VBox following Vbox Manager istructions
+
+### 3. Download repo
+#### Video
+
+#### Testual
+ -  go to [https://github.com/CastellaniDavide/maccharger](https://github.com/CastellaniDavide/maccharger)
+ - press download -> download zip
+ - unzip folder
+
+### 4. Run setup
+#### Video
+
+#### Testual
+ - do to requirements folder
+ - run requirements.sh (lnx) or (requirements.bat) for Windows code as Administrator
  
 ## Directories structure
  - .github
@@ -26,7 +75,9 @@ Manage MAC address
    - requirements.txt
    
 ### Execution examples
- - python3 maccharger.py
+ - sudo python3 maccharger.py
+ - sudo python3 maccharger.py -v
+ - sudo python3 maccharger.py -v -t 1 3 1 4 1
  - python3 test_maccharger.py
 
 # Changelog
