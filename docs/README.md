@@ -12,9 +12,10 @@ Manage MAC address
  - [x] Use one-line mode or teminal
  - [x] Make a tester
  - [x] Make an installer
+ - [ ] Run into Windows
 
 ## Required
- - A browser to see videos
+ - A browser
    
 ## Istructions to install all necessary
 
@@ -22,7 +23,6 @@ Manage MAC address
  - [2. Create VM]
  - [3. Download repo]
  - [4. Run setup]
- - [Enjoy]
 
 ### 1. Install VBox
 #### Video
